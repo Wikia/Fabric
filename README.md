@@ -28,7 +28,11 @@ pod 'Fabric/Twitter', '~> 1.3.0'
 
   `./Pods/Fabric/Fabric.framework/run YOUR_API_KEY YOUR_BUILD_SECRET`
 
+5. Ensure that modules are enabled in project settings
+
+![Project Settings](http://i.imgur.com/frp4NiM.png)
+
 ## Known issues
 
-1. If you declare a dependency on a subspec but don't `#import` a corresponding framework for that subspec your project might fail to build.
+1. If you declare a dependency on a subspec but don't `#import` a corresponding module for that subspec your project might fail to build.
 2. Using `Fabric/MoPub` or `Fabric/Twitter` subpecs result in project failing to build if `use_frameworks!` is set.
