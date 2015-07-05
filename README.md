@@ -3,12 +3,12 @@ Fabric
 This repository contains CocoaPod for Fabric (https://fabric.io).
 
 ### Current versions:
-* Fabric.framework v1.2.5
-* Crashlytics.framework v3.0.8
-* TwitterKit.framework v1.6.1
-* TwitterCore.framework v1.6.1
-* DigitsKit.framework v1.6.1
-* MoPub.framework v3.7.0
+* Fabric.framework v1.2.6
+* Crashlytics.framework v3.0.10
+* TwitterKit.framework v1.8.1
+* TwitterCore.framework v1.8.1
+* DigitsKit.framework v1.8.1
+* MoPub.framework v3.8.0
 
 ## Installing
 1. Use Fabric Mac app to configure the components you need (required for this pod to work).
@@ -16,10 +16,10 @@ This repository contains CocoaPod for Fabric (https://fabric.io).
 3. Add pods to Podfile
 
   ```ruby
-pod 'Fabric', '~> 1.3.0' # required
-pod 'Fabric/Crashlytics', '~> 1.3.0'
-pod 'Fabric/MoPub', '~> 1.3.0'
-pod 'Fabric/Twitter', '~> 1.3.0'
+pod 'Fabric', '~> 1.3.1' # required
+pod 'Fabric/Crashlytics', '~> 1.3.1'
+pod 'Fabric/MoPub', '~> 1.3.1'
+pod 'Fabric/Twitter', '~> 1.3.1'
 ```
 
   Then run `pod install`.
